@@ -40,7 +40,7 @@ function mostrarJogos(jogos) {
     let html = '';
     jogos.forEach(jogo => {
         html += `
-        <a href="Trabalho/view/jogpag.html?id=${jogo.id}" class="carta-jogo-link">
+        <a href="view/jogpag.html?id=${jogo.id}" class="carta-jogo-link">
             <div class="carta-jogo">
                 <img src="${jogo.imagem}" alt="${jogo.nome}" class="imagem-jogo">
                 <div class="info-jogo">
