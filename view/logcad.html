@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login/Cadastro</title>
+    <link rel="stylesheet" href="../public/css/logcad.css">
+    <link rel="shortcut icon" href="./img/logofake.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="item header">
+            <header>
+                <nav class="navhotbar">
+                    <a href="/index.html" class="logo">Start Zone</a>
+                    <div class="mobile-menu">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                    <ul class="nav-list">
+                        <li class="dlog"><a href="/index.html">Inicio</a></li>
+                        <li class="dlog"><a href="/">Sobre-nos</a></li>
+                        <li class="dlog"><a href="/view/jogos.html">Jogos</a></li>
+                        <li class="dlog"><a href="/">Pacotes</a></li>
+                        <li class="dlog"><a href="/view/logcad.html">Logar/Cadastrar</a></li>
+                        <li class="logl"><a href="/">Minha Conta</a></li>
+                        <li class="logl"><a href="/">Meus Pedidos</a></li>
+                        <li class="logl"><a href="/">Carrinho de Compras</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="item content-1">
+            <main>
+                <div class="logcad log textini">
+                    <h1>👋 Bem-vindo de Volta!
+                        <p class="subtitle">Acesse sua conta para aproveitar todos os recursos</p>
+                    </h1>
+                </div>
+                <div class="logcad cad textini">
+                    <h1>🎉 Comece Agora!
+                        <p class="subtitle">Crie uma conta em 1 minuto</p>
+                    </h1>
+                </div>
+                <div class="logcad log">
+                    <h1>Entrar</h1>
+                    <form action="#" id="logform" method="post" onsubmit="return false;">
+                        <label for="usuariolog">Usuário/Email</label>
+                        <input class="inp" type="text" id="usuariolog" name="usuariolog" required>
+                        <label for="senhalog">Senha:</label>
+                        <input class="inp" type="current-password" id="senhalog" name="senhalog" required>
+                        <div class="remember-me">
+                            <input type="checkbox" id="lembrar" name="lembrar">
+                            <label for="lembrar">Lembrar-me</label>
+                        </div>
+                        <button type="submit">Faça Login Agora</button>
+                    </form>
+                    <a href="#">Perdeu sua senha?</a>
+                    <p>Usuário novo?<a href="#" id="Cadastro"> Cadastre-se</a></p>
+                </div>
+                <div class="logcad cad">
+                    <h1>Cadastrar</h1>
+                    <form action="#" id="cadform" method="post" onsubmit="return false;">
+                        <label for="usuariocad">Usuário:</label>
+                        <input class="inp" type="text" id="usuariocad" name="usuariocad" required>
+                        <label for="emailcad">Email:</label>
+                        <input class="inp" type="text" id="emailcad" name="emailcad" required>
+                        <label for="senhacad">Senha:</label>
+                        <input class="inp" type="current-password" id="senhacad" name="senhacad" required>
+                        <label for="confsenhacad">Confirme Senha:</label>
+                        <input class="inp" type="current-password" id="confsenhacad" name="confsenhacad" required>
+                        <button type="submit">Faça o Cadastro</button>
+                    </form>
+                    <a href="#" id="Login">Ja tem uma conta ?</a>
+                </div>
+            </main>
+        </div>
+
+        <div class="item footer footerc">
+            <footer class="footerw">
+                <div id="footer_content">
+                    <div id="footer_contacts">
+                        <h1>START ZONE</h1>
+                        <p>Coins na hora, diversão sem demora! <br>
+                            Compre agora e jogue mais 🕹️💸</p>
+
+                        <div class="footer_social_media">
+                            <a href="" class="footer-link" id="instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="" class="footer-link" id="facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="" class="footer-link" id="whatsapp">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="footer-list">
+                        <li>
+                            <h3>Site</h3>
+                        </li>
+                        <li>
+                            <a href="/index.html" class="footer-link">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="/view" class="footer-link">Sobre-nos</a>
+                        </li>
+                        <li>
+                            <a href="/view/jogos.html" class="footer-link">Jogos</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-list">
+                        <li>
+                            <h3>Produtos</h3>
+                        </li>
+                        <li>
+                            <a href="/view/jogos.html" class="footer-link">Jogos</a>
+                        </li>
+                        <li>
+                            <a href="/view/" class="footer-link">Pacotes</a>
+                        </li>
+                        <li>
+                            <a href="/view/" class="footer-link">Moedas</a>
+                        </li>
+                    </ul>
+                    <div id="footer_subscribe">
+                        <h3>Inscreva-se</h3>
+                        <p>
+                            Quer desbloquear promoções exclusivas? <br> Deixe seu e-mail e seja avisado primeiro sobre
+                            novos pacotes e moedas!
+                        </p>
+
+                        <div id="input_group">
+                            <input type="email" name="" id="email">
+                            <button>
+                                <i class="fa-regular fa-envelope"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer_copyright">
+                    &#169
+                    2025 Todos os Direitos Reservados
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="/public/js/logcad/trocarinfo.js"></script>
+    <script src="/public/js/logcad/logado.js"></script>
+</body>
+
+</html>
