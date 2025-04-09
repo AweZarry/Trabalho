@@ -55,7 +55,7 @@ document.getElementById('logform').addEventListener('submit', function(event) {
         alert('Login realizado com sucesso!');
         logado = true
         localStorage.setItem('logado', JSON.stringify(true));
-        window.location.href = "./index.html";
+        window.location.href = "Trabalho/index.html";
     } else {
         alert('Email ou senha incorretos.');
     }
