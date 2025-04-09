@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             `;
 
             card.addEventListener('click', () => {
-                window.location.href = `Trabalho/view/jogpag.html?id=${jogo.id}`;
+                window.location.href = `view/jogpag.html?id=${jogo.id}`;
             });
 
             container.appendChild(card);
