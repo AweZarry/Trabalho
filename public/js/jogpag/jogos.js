@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 <h2>Descrição</h2>
                 <p>${descricao}</p>
             </div>
-            <a class="voltar" href="index.html"><i class="fa-solid fa-arrow-left"></i> Voltar</a>
+            <a class="voltar" href="./index.html"><i class="fa-solid fa-arrow-left"></i> Voltar</a>
         `;
     } catch (error) {
         container.innerHTML = `<p>Erro ao carregar detalhes: ${error}</p>`;
