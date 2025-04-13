@@ -50,6 +50,7 @@ Site-FrontEnd-main/
 - HTML5
 - CSS3
 - JavaScript
+- API RAWG
 
 ## 📸 Prévia
 
